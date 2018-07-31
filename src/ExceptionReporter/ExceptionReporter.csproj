@@ -137,6 +137,21 @@ Internal:
     <EmbeddedResource Include="Views\ExceptionDetailControl.resx">
       <DependentUpon>ExceptionDetailControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\ExceptionReportView.en.resx">
+      <DependentUpon>ExceptionReportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ExceptionReportView.es.resx">
+      <DependentUpon>ExceptionReportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ExceptionReportView.fr.resx">
+      <DependentUpon>ExceptionReportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ExceptionReportView.ja.resx">
+      <DependentUpon>ExceptionReportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ExceptionReportView.nl.resx">
+      <DependentUpon>ExceptionReportView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\ExceptionReportView.resx">
       <DependentUpon>ExceptionReportView.cs</DependentUpon>
     </EmbeddedResource>
@@ -148,6 +163,9 @@ Internal:
     <Compile Include="Mail\Attacher.cs" />
     <Compile Include="Mail\Zipper.cs" />
     <Compile Include="Core\FileService.cs" />
+    <EmbeddedResource Include="Views\ExceptionReportView.ru.resx">
+      <DependentUpon>ExceptionReportView.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="warning.ico" />
